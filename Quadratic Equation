@@ -1,0 +1,15 @@
+print("please enter the numerical co-efficient of x square :")
+a = int(input())
+print("please enter the numerical co-efficient of x :")
+b = int(input())
+print("enter the constant term :")
+c = int(input())
+
+delta = (b*b)-(4*a*c)
+root1  = ((-b)-(delta**(1/2)))/(2*a)
+root2 = ((-b)+(delta**(1/2)))/(2*a)
+print("therefore, the roots are : " + str(root1) + "  and  " + str(root2))
+i = 0
+while True :
+    i = i+1
+
